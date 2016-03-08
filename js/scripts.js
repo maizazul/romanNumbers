@@ -1,11 +1,14 @@
 var romanNumeral = function(n) {
   var array = [];
   for (i = 0 ; i< n ; i++) {
-
+    if (i % 5 ===0) {
+      array.push ("V");
+    } else {
     array.push("I");
-  }
+    }
 
   return array;
+  }
 }
 
 
